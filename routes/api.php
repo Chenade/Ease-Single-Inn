@@ -17,3 +17,18 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('/ease/news/{count}',function ($count){
+    $row = DB::table('news') -> take($count) -> get();
+    return $response = response() -> json(['success' => 'true','message' => '','data' => $row], 200);
+});
+
+Route::get('/ease/nearby',function (){
+    $row = DB::table('nearby') -> get();
+    return $response = response() -> json(['success' => 'true','message' => '','data' => $row], 200);
+});
+
+Route::get('/ease/nearby/category',function (){
+    $row = DB::table('nearby-category') -> get();
+    return $response = response() -> json(['success' => 'true','message' => '','data' => $row], 200);
+});

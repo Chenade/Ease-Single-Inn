@@ -48,8 +48,8 @@
         <div class="col-12 col-sm-10 col-lg-8">
             <div class="col-12">
                 <div class="section-heading wow fadeInUp" data-wow-delay="300ms">
-                    <h6 class="tag">Lobby</h6>
-                    <h2>大廳櫃檯</h2>
+                    <h6 class="tag">Service</h6>
+                    <h2>{{trans('dictionary.service_title_1')}}</h2>
                     <hr>
                 </div>
             </div>
@@ -58,15 +58,15 @@
                 <div class="col-12 col-lg-5">
                     <div class="about-content wow fadeInUp" data-wow-delay="500ms" style="margin:15px;">
                         <br>
-                        <p>1.24小時櫃檯人員服務</p>
-                        <p>2.公共電腦、傳真、影印服務</p>
-                        <p>3.郵寄信件、代收宅配服務  <span style=" margin-left:10px;color:blue;"> (限不需代付費用) </span></p>
-                        <p>4.旅遊諮詢、代叫計程車服務</p>
-                        <p>5.個人衛浴清潔用品販售</p>
-                        <p>6.簡易餐食、飲料販售服務</p>
-                        <p>7.明信片、紀念商品販售服務</p>
-                        <p>8.簡易急救箱、行李秤、充電器借用</p>
-                        <p>9.衣物洗+烘清洗服務 <span style=" margin-left:10px;color:red;"> 需自費 </span></p>
+                        <p>1. {{trans('dictionary.service_description_11')}}</p>
+                        <p>2. {{trans('dictionary.service_description_12')}}</p>
+                        <p>3. {{trans('dictionary.service_description_13')}}  <span style=" margin-left:10px;color:blue;"> (限不需代付費用) </span></p>
+                        <p>4. {{trans('dictionary.service_description_14')}}</p>
+                        <p>5. {{trans('dictionary.service_description_15')}}</p>
+                        <p>6. {{trans('dictionary.service_description_16')}}</p>
+                        <p>7. {{trans('dictionary.service_description_17')}}</p>
+                        <p>8. {{trans('dictionary.service_description_18')}}</p>
+                        <p>9. {{trans('dictionary.service_description_19')}} <span style=" margin-left:10px;color:red;"> 需自費 </span></p>
                     </div>
                 </div>
             </div>
@@ -77,8 +77,8 @@
         <div class="col-12 col-sm-10 col-lg-8">
             <div class="col-12">
                 <div class="section-heading wow fadeInUp" data-wow-delay="300ms">
-                    <h6 class="tag">Social Longue</h6>
-                    <h2>公共交誼廳</h2>
+                    <h6 class="tag">Connect</h6>
+                    <h2>{{trans('dictionary.service_title_2')}}</h2>
                     <hr>
                 </div>
             </div>
@@ -87,11 +87,11 @@
                 <div class="col-12 col-lg-5">
                     <div class="about-content wow fadeInUp" data-wow-delay="500ms" style="margin:15px;">
                         <br>
-                        <p>1.早上7:00～10:30活力早餐 <span style=" margin-left:10px;color:blue;"> (素食請先告知)</span></p>
-                        <p>2.24小時簡易廚房開放使用 <span style=" margin-left:10px;color:blue;"> (限無油煙烹飪)</span></p>
-                        <p>3.24小時飲料吧服務</p>
-                        <p>4.提供冰箱供食物寄存服務</p>
-                        <p>5.公共電視、雜誌、音樂欣賞</p>
+                        <p>1. {{trans('dictionary.service_description_21')}} <span style=" margin-left:10px;color:blue;"> (素食請先告知)</span></p>
+                        <p>2. {{trans('dictionary.service_description_22')}} <span style=" margin-left:10px;color:blue;"> (限無油煙烹飪)</span></p>
+                        <p>3. {{trans('dictionary.service_description_23')}}</p>
+                        <p>4. {{trans('dictionary.service_description_24')}}</p>
+                        <p>5. {{trans('dictionary.service_description_25')}}</p>
                     </div>
                 </div>
             </div>
@@ -102,8 +102,8 @@
         <div class="col-12 col-sm-10 col-lg-8">
             <div class="col-12">
                 <div class="section-heading wow fadeInUp" data-wow-delay="300ms">
-                    <h6 class="tag">shower</h6>
-                    <h2>公共衛浴</h2>
+                    <h6 class="tag">Facilities</h6>
+                    <h2>{{trans('dictionary.service_title_3')}}</h2>
                     <hr>
                 </div>
             </div>
@@ -112,10 +112,10 @@
                 <div class="col-12 col-lg-5">
                     <div class="about-content wow fadeInUp" data-wow-delay="500ms" style="margin:15px;">
                         <br>
-                        <p>1.24小時熱水提供</p>
-                        <p>2.提供乾濕分離沐浴區、梳妝區</p>
-                        <p>3.提供沐浴乳、洗髮精、洗手乳、牙膏、吹風機</p>
-                        <p>4.洗衣台、脫水機免費使用</p>
+                        <p>1. {{trans('dictionary.service_description_31')}}</p>
+                        <p>2. {{trans('dictionary.service_description_32')}}</p>
+                        <p>3. {{trans('dictionary.service_description_33')}}</p>
+                        <p>4. {{trans('dictionary.service_description_34')}}</p>
                     </div>
                 </div>
             </div>

@@ -10,13 +10,13 @@
                 </div>
                 <div class="col-12 col-sm-8">
                     <ul>
-                        <li style="margin-left:30px;"> <h6>自行前往：</h6></li>
-                        <li style="margin-left:60px;"> <span></span><span>台中市中區台灣大道一段100號</span></li>
+                        <li style="margin-left:30px;"> <h6>{{trans('dictionary.by_car')}}：</h6></li>
+                        <li style="margin-left:60px;"> <span></span><span>{{trans('dictionary.EASE_address')}}</span></li>
                         <br>
-                        <li style="margin-left:30px;"> <h6>火車：</h6></li>
+                        <li style="margin-left:30px;"> <h6>{{trans('dictionary.by_train')}}：</h6></li>
                         <li style="margin-left:60px;"> <span>搭至台中火車站</span></li>
                         <br>
-                        <li style="margin-left:30px;"> <h6>公車：</h6></li>
+                        <li style="margin-left:30px;"> <h6>{{trans('dictionary.by_bus')}}：</h6></li>
                         <li style="margin-left:60px;"> <span>第一廣場</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <span>台中車站</span></li>
                     </ul>
                 </div>

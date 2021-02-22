@@ -9,10 +9,8 @@
                 <a href="https://www.facebook.com/easesingleinn/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.tripadvisor.com.tw/Hotel_Review-g13792757-d9867568-Reviews-Ease_Single_Inn-Central_District_Taichung.html" target="_blank"><i class="fab fa-tripadvisor"></i></a>
                 <a href="https://www.instagram.com/easesingleinn/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <select id="language" class="selectpicker" data-width="fit">
-                    <option value="zh" selected>中文</option>
-                    <option value="en">English</option>
-                </select>
+                <button class="btn btn-outline-info language" style="margin: 0;" id="en">English</button>
+                <button class="btn btn-outline-info language" style="margin: 0;" id="zh">中文</button>
             </div>
         </div>
     </div>
@@ -20,7 +18,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <div class=""><img src="img/logo.jpg" style="margin-bottom: 5px" width="20" height="20"/>
+                <div class=""><img src="/img/logo.jpg" style="margin-bottom: 5px" width="20" height="20"/>
                     <b>EASE</b>
                 </div>
             </a>
@@ -31,12 +29,12 @@
                 <ul class="navbar-nav w-100">
                     <div class="ml-auto"></div>
                     <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/service">Service</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/room">Room</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/news">News</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/location">Location</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/nearby">nearby</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about">{{trans('dictionary.About')}}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/service">{{trans('dictionary.Service')}}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/room">{{trans('dictionary.Room')}}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/news">{{trans('dictionary.News')}}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/location">{{trans('dictionary.Location')}}</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/nearby">{{trans('dictionary.Nearby')}}</a></li>
                     {{--                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="videodrop" data-toggle="dropdown">{{trans('dictionary.Video')}}</a>--}}
                     {{--                    <ul class="dropdown-menu">--}}
                     {{--                        <li><a class="dropdown-item" href="/playback"><i class="fas fa-photo-video"></i> {{trans('dictionary.Video_List')}}</a></li>--}}

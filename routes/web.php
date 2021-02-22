@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/language/{lang}', function ($lang) {
+    App::setlocale($lang);
+    return redirect() -> back();
+});
+
 Route::get('/', function () {
     return view('pages.index');
 });
@@ -28,6 +33,26 @@ Route::get('/service', function () {
 Route::get('/room', function () {
     return view('pages.room');
 });
+
+    Route::get('/room/1', function () {
+        return view('pages.room1');
+    });
+
+    Route::get('/room/2', function () {
+        return view('pages.room2');
+    });
+
+    Route::get('/room/3', function () {
+        return view('pages.room3');
+    });
+
+    Route::get('/room/4', function () {
+        return view('pages.room4');
+    });
+
+    Route::get('/room/5', function () {
+        return view('pages.room5');
+    });
 
 Route::get('/news', function () {
     return view('pages.news');

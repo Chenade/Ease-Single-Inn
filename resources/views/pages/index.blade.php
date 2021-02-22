@@ -10,8 +10,8 @@
                         <div class="row h-100 align-items-center">
                             <div class="col-12">
                                 <div class="welcome-text text-center">
-                                    <h6 data-animation="fadeInLeft" data-delay="200ms">優質住宿</h6>
-                                    <h2 data-animation="fadeInLeft" data-delay="500ms" style="font-family:微軟正黑體;">歡迎光臨 宜舍單人旅店</h2>
+                                    <h6 data-animation="fadeInLeft" data-delay="200ms">{{trans('dictionary.highlight_1')}}</h6>
+                                    <h2 data-animation="fadeInLeft" data-delay="500ms" style="font-family:微軟正黑體;">{{trans('dictionary.welcome')}} {{trans('dictionary.EASE')}}</h2>
                                     <a href="#index" class="btn roberto-btn btn-2" data-animation="fadeInLeft" data-delay="800ms">Discover Now</a>
                                 </div>
                             </div>
@@ -26,8 +26,8 @@
                         <div class="row h-100 align-items-center">
                             <div class="col-12">
                                 <div class="welcome-text text-center">
-                                    <h6 data-animation="fadeInUp" data-delay="200ms">最佳選擇</h6>
-                                    <h2 data-animation="fadeInUp" data-delay="500ms" style="font-family:微軟正黑體;">歡迎光臨 宜舍單人旅店</h2>
+                                    <h6 data-animation="fadeInUp" data-delay="200ms">{{trans('dictionary.highlight_3')}}</h6>
+                                    <h2 data-animation="fadeInLeft" data-delay="500ms" style="font-family:微軟正黑體;">{{trans('dictionary.welcome')}} {{trans('dictionary.EASE')}}</h2>
                                     <a href="#index" class="btn roberto-btn btn-2" data-animation="fadeInUp" data-delay="800ms">Discover Now</a>
                                 </div>
                             </div>
@@ -42,8 +42,8 @@
                         <div class="row h-100 align-items-center">
                             <div class="col-12">
                                 <div class="welcome-text text-center">
-                                    <h6 data-animation="fadeInDown" data-delay="200ms">物超所值	</h6>
-                                    <h2 data-animation="fadeInDown" data-delay="500ms" style="font-family:微軟正黑體;">歡迎光臨 宜舍單人旅店</h2>
+                                    <h6 data-animation="fadeInDown" data-delay="200ms">{{trans('dictionary.highlight_2')}}</h6>
+                                    <h2 data-animation="fadeInLeft" data-delay="500ms" style="font-family:微軟正黑體;">{{trans('dictionary.welcome')}} {{trans('dictionary.EASE')}}</h2>
                                     <a href="#index" class="btn roberto-btn btn-2" data-animation="fadeInDown" data-delay="800ms">Discover Now</a>
                                 </div>
                             </div>
@@ -61,10 +61,10 @@
                 <div class="col-12 col-lg-6 align-self-center">
                     <div class="section-heading wow fadeInUp" data-wow-delay="100ms">
                         <h6 class="tag">About Us</h6>
-                        <h2>歡迎來到<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 宜舍單人旅店</h2>
+                        <h2>{{trans('dictionary.welcome')}}<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{trans('dictionary.EASE')}}</h2>
                     </div>
                     <div class="about-us-content">
-                        <h5 class="wow fadeInUp" data-wow-delay="300ms">給您超乎想像的獨立空間，享受如在家的自在與放鬆 ，並提供出差商旅的全方位服務，獨立商務區，免費WIFI上網</h5>
+                        <h5 class="wow fadeInUp" data-wow-delay="300ms">{{trans('dictionary.index_about')}}</h5>
                     </div>
                 </div>
 
@@ -96,27 +96,27 @@
             <div class="col-12 d-flex justify-content-between">
                 <div class="single-service-box wow fadeInUp" data-wow-delay="100ms">
                     <img src="img/core-img/icon-1.png" alt="">
-                    <h5>交通便利</h5>
+                    <h5>{{trans('dictionary.highlight_1')}}</h5>
                 </div>
 
                 <div class="single-service-box wow fadeInUp" data-wow-delay="300ms">
                     <img src="img/core-img/icon-2.png" alt="">
-                    <h5>優質服務</h5>
+                    <h5>{{trans('dictionary.highlight_2')}}</h5>
                 </div>
 
                 <div class="single-service-box wow fadeInUp" data-wow-delay="500ms">
                     <img src="img/core-img/icon-3.png" alt="">
-                    <h5>完善設施</h5>
+                    <h5>{{trans('dictionary.highlight_3')}}</h5>
                 </div>
 
                 <div class="single-service-box wow fadeInUp" data-wow-delay="700ms">
                     <img src="img/core-img/icon-4.png" alt="">
-                    <h5>歡樂暢飲</h5>
+                    <h5>{{trans('dictionary.highlight_4')}}</h5>
                 </div>
 
                 <div class="single-service-box wow fadeInUp" data-wow-delay="900ms">
                     <img src="img/core-img/icon-1.png" alt="">
-                    <h5>周邊景點</h5>
+                    <h5>{{trans('dictionary.highlight_5')}}</h5>
                 </div>
             </div>
         </div>
@@ -125,8 +125,8 @@
     <section id="nearby" class="section" style="flex-direction: column">
         <div class="col-12">
             <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
-                <h6 class="tag">Nearby</h6>
-                <h2>周邊景點</h2>
+                <h6 class="tag">Tourist</h6>
+                <h2>{{trans('dictionary.Nearby')}}</h2>
             </div>
         </div>
         <div class="col-12">
@@ -236,8 +236,8 @@
     <section id="room" class="section" style="flex-direction: column">
         <div class="col-12">
             <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
-                <h6 class="tag">Room</h6>
-                <h2>房型介紹</h2>
+                <h6 class="tag">Introduction</h6>
+                <h2>{{trans('dictionary.Room')}}</h2>
             </div>
         </div>
         <div class="col-12">
@@ -246,85 +246,80 @@
                 <div class="single-room-slide d-flex align-items-center flex-wrap">
                     <div class="room-thumbnail bg-img col-12 col-sm-6" style="background-image: url(img/Room1.jpg);"></div>
                     <div class="room-content col-12 col-sm-6">
-                        <h2 data-animation="fadeInUp" data-delay="500ms">單人頭等艙</h2>
-                        <h3 data-animation="fadeInUp" data-delay="700ms">NT$ 800 - 900 <span>/ 平日</span></h3>
-                        <ul class="room-feature" data-animation="fadeInUp" data-delay="500ms">
-                            <li><span> 假日</span> <span>: NT$ 900 - 1200</span></li>
-                            <li style="margin-bottom: 2em;"><span> 旺日</span> <span>: NT$ 1200 - 1600</span></li>
-                            <li><span><i class="fa fa-check"></i> 可入住性別</span> <span>: 男 / 女</span></li>
-                            <li><span><i class="fa fa-check"></i> 最大客容量</span> <span>: 一位</span></li>
-                            <li><span><i class="fa fa-check"></i> 房型</span> <span>: 單人床</span></li>
-                            <li><a href="#"><span style="font-weight: bold;">More Detail...</span></a></li>
+                        <h2 class="wow fadeInUp" data-wow-delay="100ms">{{trans('dictionary.Single_room')}}</h2>
+                        <h3 class="wow fadeInUp" data-wow-delay="300ms">NT$ 800 - 900 <span>/ {{trans('dictionary.weekday')}}</span></h3>
+                        <ul class="room-feature wow fadeInUp" data-wow-delay="700ms">
+                            <li><span> {{trans('dictionary.weekend')}}</span> <span>: NT$ 900 - 1200</span></li>
+                            <li style="margin-bottom: 2em;"><span> {{trans('dictionary.holiday')}}</span> <span>: NT$ 1200 - 1600</span></li>
+                            <li><span><i class="fa fa-check"></i> {{trans('dictionary.gender_option')}}</span> <span>: {{trans('dictionary.male')}} / {{trans('dictionary.female')}}</span></li>
+                            <li><span><i class="fa fa-check"></i> {{trans('dictionary.max_capacity')}}</span>  <span>: 1 {{trans('dictionary.person')}}</span></li>
+                            <li><span><i class="fa fa-check"></i> {{trans('dictionary.bed')}}</span> <span>: {{trans('dictionary.single_bed')}}</span></li>
+                            <li><a href="/room/1"><span style="   font-weight: bold;">More Detail...</span></a></li>
                         </ul>
-{{--                        <a href="./single-room1.html" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">查看更多</a>--}}
                     </div>
                 </div>
 
                 <div class="single-room-slide d-flex align-items-center flex-wrap">
                     <div class="room-thumbnail bg-img col-12 col-sm-6" style="background-image: url(img/Room1.jpg);"></div>
                     <div class="room-content col-12 col-sm-6">
-                        <h2 data-animation="fadeInUp" data-delay="500ms">二人商務艙</h2>
-                        <h3 data-animation="fadeInUp" data-delay="700ms">NT$ 1200 - 1400 <span>/ 平日</span></h3>
-                        <ul class="room-feature" data-animation="fadeInUp" data-delay="500ms">
-                            <li><span> 假日</span> <span>: NT$ 1600 - 1800</span></li>
-                            <li style="margin-bottom: 2em;"><span> 旺日</span> <span>: NT$ 1800 - 2000</span></li>
-                            <li><span><i class="fa fa-check"></i> 可選擇性別</span> <span>: 男 / 女</span></li>
-                            <li><span><i class="fa fa-check"></i> 最大可容量</span> <span>: 2位</span></li>
-                            <li><span><i class="fa fa-check"></i> 房型</span> <span>: 兩張單人床</span></li>
-                            <li><a href="#"><span style="font-weight: bold;">More Detail...</span></a></li>
+                        <h2 class="wow fadeInUp" data-wow-delay="100ms">{{trans('dictionary.Double_room')}}</h2>
+                        <h3 class="wow fadeInUp" data-wow-delay="300ms">NT$ 1200 - 1400 <span>/ {{trans('dictionary.weekday')}}</span></h3>
+                        <ul class="room-feature wow fadeInUp" data-wow-delay="900ms">
+                            <li><span> {{trans('dictionary.weekend')}}</span> <span>: NT$ 1600 - 1800</span></li>
+                            <li style="margin-bottom: 2em;"><span> {{trans('dictionary.holiday')}}</span> <span>: NT$ 1800 - 2000</span></li>
+                            <li><span><i class="fa fa-check"></i> {{trans('dictionary.gender_option')}}</span> <span>: {{trans('dictionary.male')}} / {{trans('dictionary.female')}}</span></li>
+                            <li><span><i class="fa fa-check"></i> {{trans('dictionary.max_capacity')}}</span>  <span>: 2 {{trans('dictionary.people')}}</span></li>
+                            <li><span><i class="fa fa-check"></i> {{trans('dictionary.bed')}}</span> <span>: 2 {{trans('dictionary.single_bed')}}</span></li>
+                            <li><a href="/room/2"><span style="font-weight: bold;">More Detail...</span></a></li>
                         </ul>
-{{--                        <a href="./single-room2.html" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">查看更多</a>--}}
                     </div>
                 </div>
 
                 <div class="single-room-slide d-flex align-items-center flex-wrap">
                     <div class="room-thumbnail bg-img col-12 col-sm-6" style="background-image: url(img/Room1.jpg);"></div>
                     <div class="room-content col-12 col-sm-6">
-                        <h2 data-animation="fadeInUp" data-delay="100ms">三人商務艙</h2>
-                        <h3 data-animation="fadeInUp" data-delay="300ms">NT$ 1500 - 1650 <span>/ 平日</span></h3>
-                        <ul class="room-feature" data-animation="fadeInUp" data-delay="500ms">
-                            <li><span> 假日</span> <span>: NT$ 1800 - 2000</span></li>
-                            <li style="margin-bottom: 2em;"><span> 旺日</span> <span>: NT$ 2000 - 2400</span></li>
-                            <li><span><i class="fa fa-check"></i> 可選擇性別</span> <span>: 男 </span></li>
-                            <li><span><i class="fa fa-check"></i> 最大客容量</span> <span>: 3位</span></li>
-                            <li><span><i class="fa fa-check"></i> 房型</span> <span>: 三張單人床</span></li>
-                            <li><a href="#"><span style="font-weight: bold;">More Detail...</span></a></li>
+                        <h2 class="wow fadeInUp" data-wow-delay="100ms">{{trans('dictionary.Triple_room')}}</h2>
+                        <h3 class="wow fadeInUp" data-wow-delay="300ms">NT$ 1500 - 1650 <span>/ {{trans('dictionary.weekday')}}</span></h3>
+                        <ul class="room-feature wow fadeInUp" data-wow-delay="900ms">
+                            <li><span> {{trans('dictionary.weekend')}}</span> <span>: NT$ 1800 - 2000</span></li>
+                            <li style="margin-bottom: 2em;"><span> {{trans('dictionary.holiday')}}</span> <span>: NT$ 2000 - 2400</span></li>
+                            <li><span><i class="fa fa-check"></i> {{trans('dictionary.gender_option')}}</span> <span>: {{trans('dictionary.male')}}</span></li>
+                            <li><span><i class="fa fa-check"></i> {{trans('dictionary.max_capacity')}}</span> <span>: 3 {{trans('dictionary.people')}}</span></li>
+                            <li><span><i class="fa fa-check"></i> {{trans('dictionary.bed')}}</span> <span>: 3 {{trans('dictionary.single_bed')}}</span></li>
+                            <li><a href="/room/3"><span style="font-weight: bold;">More Detail...</span></a></li>
                         </ul>
-{{--                        <a href="./single-room3.html" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">查看更多</a>--}}
                     </div>
                 </div>
 
                 <div class="single-room-slide d-flex align-items-center flex-wrap">
                     <div class="room-thumbnail bg-img col-12 col-sm-6" style="background-image: url(img/Room1.jpg);"></div>
                     <div class="room-content col-12 col-sm-6">
-                        <h2 data-animation="fadeInUp" data-delay="100ms">四人商務艙</h2>
-                        <h3 data-animation="fadeInUp" data-delay="300ms">NT$ 1800 - 2100 <span>/ 平日</span></h3>
-                        <ul class="room-feature" data-animation="fadeInUp" data-delay="500ms">
-                            <li><span> 假日</span> <span>: NT$ 2400 - 2600</span></li>
-                            <li style="margin-bottom: 2em;"><span> 旺日</span> <span>: NT$ 2600 - 3000</span></li>
-                            <li><span><i class="fa fa-check"></i> 可選擇性別</span> <span>: 男 / 女</span></li>
-                            <li><span><i class="fa fa-check"></i> 最大客容量</span> <span>: 4位</span></li>
-                            <li><span><i class="fa fa-check"></i> 房型</span> <span>: 和室通鋪</span></li>
-                            <li><a href="#"><span style="font-weight: bold;">More Detail...</span></a></li>
+                        <h2 class="wow fadeInUp" data-wow-delay="100ms">{{trans('dictionary.Quadruple_room')}}</h2>
+                        <h3 class="wow fadeInUp" data-wow-delay="300ms">NT$ 1800 - 2100 <span>/ {{trans('dictionary.weekday')}}</span></h3>
+                        <ul class="room-feature wow fadeInUp" data-wow-delay="900ms">
+                            <li><span> {{trans('dictionary.weekend')}}</span> <span>: NT$ 2400 - 2600</span></li>
+                            <li style="margin-bottom: 2em;"><span> {{trans('dictionary.holiday')}}</span> <span>: NT$ 2600 - 3000</span></li>
+                            <li><span><i class="fa fa-check"></i> {{trans('dictionary.gender_option')}}</span> <span>: {{trans('dictionary.male')}} / {{trans('dictionary.female')}}</span></li>
+                            <li><span><i class="fa fa-check"></i> {{trans('dictionary.max_capacity')}}</span> <span>: 4 {{trans('dictionary.people')}}</span></li>
+                            <li><span><i class="fa fa-check"></i> {{trans('dictionary.bed')}}</span> <span>: {{trans('dictionary.Japanese-style')}}</span></li>
+                            <li><a href="/room/4"><span style="font-weight: bold;">More Detail...</span></a></li>
                         </ul>
-{{--                        <a href="./single-room4.html" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">查看更多</a>--}}
                     </div>
                 </div>
 
                 <div class="single-room-slide d-flex align-items-center flex-wrap">
                     <div class="room-thumbnail bg-img col-12 col-sm-6" style="background-image: url(img/Room1.jpg);"></div>
                     <div class="room-content col-12 col-sm-6">
-                        <h2 data-animation="fadeInUp" data-delay="100ms">混居經濟艙</h2>
-                        <h3 data-animation="fadeInUp" data-delay="300ms">NT$ 500 - 550 <span>/ 平日</span></h3>
-                        <ul class="room-feature" data-animation="fadeInUp" data-delay="500ms">
-                            <li><span> 假日</span> <span>: NT$ 600 - 700</span></li>
-                            <li style="margin-bottom: 2em;"><span> 旺日</span> <span>: NT$ 700 - 800</span></li>
-                            <li><span><i class="fa fa-check"></i> 可選擇性別</span> <span>: 男 / 女</span></li>
-                            <li><span><i class="fa fa-check"></i> 最大客容量</span> <span>: 20位</span></li>
-                            <li><span><i class="fa fa-check"></i> 房型</span> <span>: 上 / 下舖床位</span></li>
-                            <li><a href="#"><span style="font-weight: bold;">More Detail...</span></a></li>
+                        <h2 class="wow fadeInUp" data-wow-delay="100ms">{{trans('dictionary.Bunk_room')}}</h2>
+                        <h3 class="wow fadeInUp" data-wow-delay="300ms">NT$ 500 - 550 <span>/ {{trans('dictionary.weekday')}}</span></h3>
+                        <ul class="room-feature wow fadeInUp" data-wow-delay="900ms">
+                            <li><span> {{trans('dictionary.weekend')}}</span> <span>: NT$ 600 - 700</span></li>
+                            <li style="margin-bottom: 2em;"><span> {{trans('dictionary.holiday')}}</span> <span>: NT$ 700 - 800</span></li>
+                            <li><span><i class="fa fa-check"></i> {{trans('dictionary.gender_option')}}</span> <span>: {{trans('dictionary.male')}} / {{trans('dictionary.female')}}</span></li>
+                            <li><span><i class="fa fa-check"></i> {{trans('dictionary.max_capacity')}}</span> <span>: 20 {{trans('dictionary.people')}}</span></li>
+                            <li><span><i class="fa fa-check"></i> {{trans('dictionary.bed')}}</span> <span>: 1 {{trans('dictionary.bunk_bed')}}</span></li>
+                            <li><a href="/room/5"><span style="font-weight: bold;">More Detail...</span></a></li>
                         </ul>
-{{--                        <a href="./single-room5.html" class="btn roberto-btn mt-30" data-animation="fadeInUp" data-delay="700ms">查看更多</a>--}}
                     </div>
                 </div>
             </div>
@@ -340,189 +335,41 @@
         <div class="col-12 col-sm-10 col-lg-8">
             <div class="col-12">
                 <div class="section-heading text-center wow fadeInUp" data-wow-delay="100ms">
-                    <h6 class="tag">News</h6>
-                    <h2>最新消息</h2>
+                    <h6 class="tag">Information</h6>
+                    <h2>{{trans('dictionary.News')}}</h2>
                 </div>
             </div>
-            <div class="col-12 d-flex flex-wrap justify-content-around">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-post-box wow fadeInUp" data-wow-delay="500ms">
-                        <div class="post-thumbnail"><img src="img/news5.jpg" alt=""></div>
-                        <div class="post-meta">
-                            <a href="#" class="post-date">AUG 30, 2019</a>
-                            <a href="#" class="post-catagory">DISCOUNT</a>
-                        </div>
-                        <div class="post-title">擴大國旅秋冬遊</div>
-                        <p>住宿優惠活動<br>平日住宜舍每房折抵 NT$ 1000</p>
-                        <a href="index.html" class="btn continue-btn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-post-box wow fadeInUp" data-wow-delay="500ms">
-                        <div class="post-thumbnail"><img src="img/news5.jpg" alt=""></div>
-                        <div class="post-meta">
-                            <a href="#" class="post-date">AUG 30, 2019</a>
-                            <a href="#" class="post-catagory">DISCOUNT</a>
-                        </div>
-                        <div class="post-title">擴大國旅秋冬遊</div>
-                        <p>住宿優惠活動<br>平日住宜舍每房折抵 NT$ 1000</p>
-                        <a href="index.html" class="btn continue-btn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-post-box wow fadeInUp" data-wow-delay="500ms">
-                        <div class="post-thumbnail"><img src="img/news5.jpg" alt=""></div>
-                        <div class="post-meta">
-                            <a href="#" class="post-date">AUG 30, 2019</a>
-                            <a href="#" class="post-catagory">DISCOUNT</a>
-                        </div>
-                        <div class="post-title">擴大國旅秋冬遊</div>
-                        <p>住宿優惠活動<br>平日住宜舍每房折抵 NT$ 1000</p>
-                        <a href="index.html" class="btn continue-btn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-            </div>
+            <div class="col-12 d-flex flex-wrap justify-content-around" id="newsList"></div>
         </div>
     </section>
 
+
+    <div class="modal fade" id="news_modal" role="dialog">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content" style="padding: 15px;">
+                <div class="modal-header">
+                    <h4 class="modal-title nopadding" id="news_title"></h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form onsubmit="return false;" class="input-group" style="padding-bottom: 5px">
+                        <span class="input-group-prepend">
+                            <button type="button" class="btn btn-primary" >期間</button>
+                        </span>
+                        <input type="text" class="form-control" id="news_duration">
+                    </form>
+                    <div class="col-12">
+                        <img id="news_detail" class="col-12" src="/img/logo-lg.jpg" onerror="/img/logo-lg.jpg"/>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">{{trans('dictionary.Close')}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 @stop
 @section('end_script')
-<script>
-    $('#breadcrumb').hide();
-
-    var welcomeSlider = $('.welcome-slides');
-    welcomeSlider.owlCarousel({
-        items: 1,
-        loop: true,
-        autoplay: true,
-        autoplayTimeout:5000,
-        smartSpeed: 1000,
-        nav: true
-    })
-
-    welcomeSlider.on('translate.owl.carousel', function () {
-        var layer = $("[data-animation]");
-        layer.each(function () {
-            var anim_name = $(this).data('animation');
-            $(this).removeClass('animated ' + anim_name).css('opacity', '0');
-        });
-    });
-
-    $("[data-delay]").each(function () {
-        var anim_del = $(this).data('delay');
-        $(this).css('animation-delay', anim_del);
-    });
-
-    $("[data-duration]").each(function () {
-        var anim_dur = $(this).data('duration');
-        $(this).css('animation-duration', anim_dur);
-    });
-
-    welcomeSlider.on('translated.owl.carousel', function () {
-        var layer = welcomeSlider.find('.owl-item.active').find("[data-animation]");
-        layer.each(function () {
-            var anim_name = $(this).data('animation');
-            $(this).addClass('animated ' + anim_name).css('opacity', '1');
-        });
-    });
-
-    function welcomeSlide() {
-        $('.owl-item').removeClass('prev next');
-        var currentSlide = $('.welcome-slides .owl-item.active');
-        currentSlide.next('.owl-item').addClass('next');
-        currentSlide.prev('.owl-item').addClass('prev');
-        var nextSlideImg = $('.owl-item.next').find('.single-welcome-slide').attr('data-img-url');
-        var prevSlideImg = $('.owl-item.prev').find('.single-welcome-slide').attr('data-img-url');
-        $('.owl-nav .owl-prev').css({
-            background: 'url(' + prevSlideImg + ')'
-        });
-        $('.owl-nav .owl-next').css({
-            left: $(window).width() -100,
-            background: 'url(' + nextSlideImg + ')'
-        });
-    }
-
-    welcomeSlide();
-
-    welcomeSlider.on('translated.owl.carousel', function () {
-        welcomeSlide();
-    });
-
-    var projectSlide = $('.projects-slides');
-    projectSlide.owlCarousel({
-        items: 5,
-        margin: 0,
-        loop: true,
-        autoplay: true,
-        smartSpeed: 1500,
-        dots: true,
-        responsive: {
-            0: {
-                items: 1
-            },
-            768: {
-                items: 2
-            },
-            992: {
-                items: 3
-            },
-            1500: {
-                items: 4
-            }
-        }
-    });
-
-    $(".single-project-slide").on("mouseenter", function () {
-        $(".single-project-slide").removeClass("active");
-        $(this).addClass("active");
-    });
-
-    var roomSlides = $('.rooms-slides');
-    roomSlides.owlCarousel({
-        items: 1,
-        margin: 0,
-        loop: true,
-        autoplay: true,
-        autoplayTimeout:5000,
-        smartSpeed: 1500,
-        // nav: true,
-        // navText: [$('#room-prev'),$('#room-next')]
-    });
-
-    $('#room-next').click(function() {
-        roomSlides.trigger('next.owl.carousel');
-    })
-    // Go to the previous item
-    $('#room-prev').click(function() {
-        roomSlides.trigger('prev.owl.carousel');
-    })
-
-    roomSlides.on('translate.owl.carousel', function () {
-        var layer = $("[data-animation]");
-        layer.each(function () {
-            var anim_name = $(this).data('animation');
-            $(this).removeClass('animated ' + anim_name).css('opacity', '0');
-        });
-    });
-
-    $("[data-delay]").each(function () {
-        var anim_del = $(this).data('delay');
-        $(this).css('animation-delay', anim_del);
-    });
-
-    $("[data-duration]").each(function () {
-        var anim_dur = $(this).data('duration');
-        $(this).css('animation-duration', anim_dur);
-    });
-
-    roomSlides.on('translated.owl.carousel', function () {
-        var layer = roomSlides.find('.owl-item.active').find("[data-animation]");
-        layer.each(function () {
-            var anim_name = $(this).data('animation');
-            $(this).addClass('animated ' + anim_name).css('opacity', '1');
-        });
-    });
-</script>
+<script src="/js/index.min.js"></script>
 @stop

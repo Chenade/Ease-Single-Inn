@@ -4,22 +4,22 @@
 
     <section id="room" class="section">
         <div class="col-12 col-sm-10 col-lg-8">
-            <div class="col-12 d-flex">
+            <div class="col-12 d-flex flex-wrap">
                 <div class="col-12 col-lg-8">
                     <div class="single-room-area d-flex flex-wrap align-items-center wow fadeInUp" data-wow-delay="100ms">
                         <div class="room-thumbnail col-12 col-lg-6">
                             <img src="img/Room1.jpg" alt="">
                         </div>
                         <div class="single-room-content col-12 col-lg-6 nopadding">
-                            <h3 class="nopadding">單人頭等艙</h3>
-                            <h4><span class="tag">NT$800 - 1000</span> <span>/ 平日</span></h4>
+                            <h3 class="nopadding"> {{trans('dictionary.Single_room')}}</h3>
+                            <h4><span class="tag">NT$800 - 1000</span> <span>/  {{trans('dictionary.weekday')}}</span></h4>
                             <div class="room-feature d-flex flex-wrap">
-                                <h6 class="col-6">Size: <span>10 ft</span></h6>
-                                <h6 class="col-6">Gender Availability: <span>Female / Male</span></h6>
-                                <h6 class="col-6">Bed: <span>Single bed</span></h6>
-                                <h6 class="col-6">Services: <span>Wifi, ...</span></h6>
+                                <h6 class="col-6"> {{trans('dictionary.space')}}: <span>10 ft</span></h6>
+                                <h6 class="col-6"> {{trans('dictionary.gender_option')}}: <span>{{trans('dictionary.female')}} / {{trans('dictionary.male')}}</span></h6>
+                                <h6 class="col-6"> {{trans('dictionary.bed')}}: <span>1 {{trans('dictionary.single_bed')}}</span></h6>
+                                <h6 class="col-6"> {{trans('dictionary.room_service')}}: <span>Wifi, ...</span></h6>
                             </div>
-                            <a href="./single-room1.php" class="btn view-detail-btn">View Details <i class="fas fa-long-arrow-alt-right"></i></a>
+                            <a href="/room/1" class="btn view-detail-btn">View Details <i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
 
@@ -28,15 +28,15 @@
                             <img src="img/Room2.jpg" alt="">
                         </div>
                         <div class="single-room-content col-12 col-lg-6 nopadding">
-                            <h3 class="nopadding">二人商務艙</h3>
-                            <h4><span class="tag">NT$1200 - 1400</span> <span>/ 平日</span></h4>
+                            <h3 class="nopadding">{{trans('dictionary.Double_room')}}</h3>
+                            <h4><span class="tag">NT$1200 - 1400</span> <span>/ {{trans('dictionary.weekday')}}</span></h4>
                             <div class="room-feature d-flex flex-wrap">
-                                <h6 class="col-6">Size: <span>10 ft</span></h6>
-                                <h6 class="col-6">Gender Availability: <span>Female / Male</span></h6>
-                                <h6 class="col-6">Bed: <span>Single bed</span></h6>
-                                <h6 class="col-6">Services: <span>Wifi, ...</span></h6>
+                                <h6 class="col-6">{{trans('dictionary.space')}}: <span>10 ft</span></h6>
+                                <h6 class="col-6">{{trans('dictionary.gender_option')}}: <span>{{trans('dictionary.female')}} / {{trans('dictionary.male')}}</span></h6>
+                                <h6 class="col-6">{{trans('dictionary.bed')}}: <span>2 {{trans('dictionary.single_bed')}}</span></h6>
+                                <h6 class="col-6">{{trans('dictionary.room_service')}}: <span>Wifi, ...</span></h6>
                             </div>
-                            <a href="./single-room2.php" class="btn view-detail-btn">View Details <i class="fas fa-long-arrow-alt-right"></i></a>
+                            <a href="/room/2" class="btn view-detail-btn">View Details <i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
 
@@ -45,15 +45,15 @@
                             <img src="img/Room3.jpg" alt="">
                         </div>
                         <div class="single-room-content col-12 col-lg-6 nopadding">
-                            <h3 class="nopadding">三人商務艙</h3>
-                            <h4><span class="tag">NT$1500 - 1650</span> <span>/ 平日</span></h4>
+                            <h3 class="nopadding">{{trans('dictionary.Triple_room')}}</h3>
+                            <h4><span class="tag">NT$1500 - 1650</span> <span>/ {{trans('dictionary.weekday')}}</span></h4>
                             <div class="room-feature d-flex flex-wrap">
-                                <h6 class="col-6">Size: <span>10 ft</span></h6>
-                                <h6 class="col-6">Gender Availability: <span style="color: red; font-weight: bolder">Male</span></h6>
-                                <h6 class="col-6">Bed: <span>Single bed</span></h6>
-                                <h6 class="col-6">Services: <span>Wifi, ...</span></h6>
+                                <h6 class="col-6">{{trans('dictionary.space')}}: <span>10 ft</span></h6>
+                                <h6 class="col-6">{{trans('dictionary.gender_option')}}: <span style="color: red; font-weight: bolder">{{trans('dictionary.male')}}</span></h6>
+                                <h6 class="col-6">{{trans('dictionary.bed')}}: <span>3 {{trans('dictionary.single_bed')}}</span></h6>
+                                <h6 class="col-6">{{trans('dictionary.room_service')}}: <span>Wifi, ...</span></h6>
                             </div>
-                            <a href="./single-room3.php" class="btn view-detail-btn">View Details <i class="fas fa-long-arrow-alt-right"></i></a>
+                            <a href="/room/3" class="btn view-detail-btn">View Details <i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
 
@@ -62,15 +62,15 @@
                             <img src="img/Room4.jpg" alt="">
                         </div>
                         <div class="single-room-content col-12 col-lg-6 nopadding">
-                            <h3 class="nopadding">四人商務艙</h3>
-                            <h4><span class="tag">NT$1800 - 2100</span> <span>/ 平日</span></h4>
+                            <h3 class="nopadding">{{trans('dictionary.Quadruple_room')}}</h3>
+                            <h4><span class="tag">NT$1800 - 2100</span> <span>/ {{trans('dictionary.weekday')}}</span></h4>
                             <div class="room-feature d-flex flex-wrap">
-                                <h6 class="col-6">Size: <span>10 ft</span></h6>
-                                <h6 class="col-6">Gender Availability: <span>Female / Male</span></h6>
-                                <h6 class="col-6">Bed: <span>Single bed</span></h6>
-                                <h6 class="col-6">Services: <span>Wifi, ...</span></h6>
+                                <h6 class="col-6">{{trans('dictionary.space')}}: <span>10 ft</span></h6>
+                                <h6 class="col-6">{{trans('dictionary.gender_option')}}: <span>{{trans('dictionary.female')}} / {{trans('dictionary.male')}}</span></h6>
+                                <h6 class="col-6">{{trans('dictionary.bed')}}: <span>1 {{trans('dictionary.Japanese-style')}}</span></h6>
+                                <h6 class="col-6">{{trans('dictionary.room_service')}}: <span>Wifi, ...</span></h6>
                             </div>
-                            <a href="./single-room4.php" class="btn view-detail-btn">View Details <i class="fas fa-long-arrow-alt-right"></i></a>
+                            <a href="/room/4" class="btn view-detail-btn">View Details <i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
 
@@ -79,15 +79,15 @@
                             <img src="img/Room5.jpg" alt="">
                         </div>
                         <div class="single-room-content col-12 col-lg-6 nopadding">
-                            <h3 class="nopadding">混居經濟艙</h3>
-                            <h4><span class="tag">NT$500 - 550</span> <span>/ 平日</span></h4>
+                            <h3 class="nopadding">{{trans('dictionary.Bunk_room')}}</h3>
+                            <h4><span class="tag">NT$500 - 550</span> <span>/ {{trans('dictionary.weekday')}}</span></h4>
                             <div class="room-feature d-flex flex-wrap">
-                                <h6 class="col-6">Size: <span>10 ft</span></h6>
-                                <h6 class="col-6">Gender Availability: <span>Female / Male</span></h6>
-                                <h6 class="col-6">Bed: <span>Single bed</span></h6>
-                                <h6 class="col-6">Services: <span>Wifi, ...</span></h6>
+                                <h6 class="col-6">{{trans('dictionary.space')}}: <span>10 ft</span></h6>
+                                <h6 class="col-6">{{trans('dictionary.gender_option')}}: <span>{{trans('dictionary.female')}} / {{trans('dictionary.male')}}</span></h6>
+                                <h6 class="col-6">{{trans('dictionary.bed')}}: <span>1 {{trans('dictionary.bunk_bed')}}</span></h6>
+                                <h6 class="col-6">{{trans('dictionary.room_service')}}: <span>Wifi, ...</span></h6>
                             </div>
-                            <a href="./single-room5.php" class="btn view-detail-btn">View Details <i class="fas fa-long-arrow-alt-right"></i></a>
+                            <a href="/room/5" class="btn view-detail-btn">View Details <i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
                 </div>
