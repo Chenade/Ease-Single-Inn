@@ -65,3 +65,20 @@ Route::get('/location', function () {
 Route::get('/nearby', function () {
     return view('pages.nearby');
 });
+
+Route::get('/member/login', function () {
+    return view('pages.member.login');
+});
+
+Route::get('/member/logout', function () {
+    session() -> forget('account');
+    return view('pages.member.login');
+});
+
+Route::get('/member/join', function () {
+    return view('pages.member.join');
+});
+
+Route::get('/member/dashboard', function () {
+    return view('pages.member.dashboard');
+});

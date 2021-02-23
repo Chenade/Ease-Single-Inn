@@ -233,7 +233,7 @@
 }
 
 .next {
-    right: 0;
+    right: 15px;
     border-radius: 3px 0 0 3px;
 }
 
@@ -322,3 +322,18 @@
 }
 
 /*---single room---*/
+/*---member---*/
+
+#member-info{
+    border: solid #bbb 1px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+input[type="text"]:disabled {
+    background: transparent!important;
+    border: none!important;
+    box-shadow: none!important;
+}
+
+/*---member---*/

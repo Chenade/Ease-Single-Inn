@@ -2,6 +2,8 @@
 <html>
 <head>
     @include('includes.head')
+    <title>EASE Single Inn | 宜舍單人旅店</title>
+    <link rel="icon" href="/img/logo.jpg">
 </head>
 <body>
 @include('includes.navbar')
@@ -33,6 +35,7 @@
         @yield('content')
     </div>
 </main>
+{{--<p>{{ session() -> all()  }}</p>--}}
 @include('includes.footer')
 <script>
     new WOW().init();

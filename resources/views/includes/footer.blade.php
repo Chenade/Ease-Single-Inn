@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-6">
                     <div> <img src="/img/Facebook.PNG" onclick=location.href="https://www.facebook.com/easesingleinn/" target="_blank"> </div>
-                    <div> <p>搜尋：宜舍單人旅店</p> </div>
+                    <div> <p> {{trans('dictionary.search')}}：{{trans('dictionary.EASE')}}</p> </div>
                 </div>
             </div>
         </div>

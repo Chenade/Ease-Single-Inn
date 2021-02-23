@@ -28,19 +28,24 @@
             <ul class="collapse navbar-collapse" id="navbarNavDropdown" style="margin: 0;">
                 <ul class="navbar-nav w-100">
                     <div class="ml-auto"></div>
-                    <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
+{{--                    <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>--}}
                     <li class="nav-item"><a class="nav-link" href="/about">{{trans('dictionary.About')}}</a></li>
                     <li class="nav-item"><a class="nav-link" href="/service">{{trans('dictionary.Service')}}</a></li>
                     <li class="nav-item"><a class="nav-link" href="/room">{{trans('dictionary.Room')}}</a></li>
                     <li class="nav-item"><a class="nav-link" href="/news">{{trans('dictionary.News')}}</a></li>
                     <li class="nav-item"><a class="nav-link" href="/location">{{trans('dictionary.Location')}}</a></li>
                     <li class="nav-item"><a class="nav-link" href="/nearby">{{trans('dictionary.Nearby')}}</a></li>
-                    {{--                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="videodrop" data-toggle="dropdown">{{trans('dictionary.Video')}}</a>--}}
-                    {{--                    <ul class="dropdown-menu">--}}
-                    {{--                        <li><a class="dropdown-item" href="/playback"><i class="fas fa-photo-video"></i> {{trans('dictionary.Video_List')}}</a></li>--}}
-                    {{--                        <li><a class="dropdown-item" href="/playback_new"><i class="fas fa-video"></i> {{trans('dictionary.userPlayback')}}</a></li>--}}
-                    {{--                    </ul>--}}
-                    {{--                </li>--}}
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="videodrop" data-toggle="dropdown">{{trans('dictionary.Member')}}</a>
+                        <ul class="dropdown-menu">
+                            @if(session() -> has('account'))
+                                <li><a class="dropdown-item" href="/member/dashboard">{{trans('dictionary.member_center')}}</a></li>
+                                <li><a class="dropdown-item" href="/member/logout">{{trans('dictionary.logout')}}</a></li>
+                            @else
+                                <li><a class="dropdown-item" href="/member/login">{{trans('dictionary.login')}}</a></li>
+                                <li><a class="dropdown-item" href="/member/join">{{trans('dictionary.join_member')}}</a></li>
+                            @endif
+                        </ul>
+                    </li>
                 </ul>
             </ul>
         </div>

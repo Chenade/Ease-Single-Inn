@@ -60,13 +60,13 @@
                         <br>
                         <p>1. {{trans('dictionary.service_description_11')}}</p>
                         <p>2. {{trans('dictionary.service_description_12')}}</p>
-                        <p>3. {{trans('dictionary.service_description_13')}}  <span style=" margin-left:10px;color:blue;"> (限不需代付費用) </span></p>
+                        <p>3. {{trans('dictionary.service_description_13')}}  <span style=" margin-left:10px;color:blue;"> {{trans('dictionary.service_description_13_notice')}} </span></p>
                         <p>4. {{trans('dictionary.service_description_14')}}</p>
                         <p>5. {{trans('dictionary.service_description_15')}}</p>
                         <p>6. {{trans('dictionary.service_description_16')}}</p>
                         <p>7. {{trans('dictionary.service_description_17')}}</p>
                         <p>8. {{trans('dictionary.service_description_18')}}</p>
-                        <p>9. {{trans('dictionary.service_description_19')}} <span style=" margin-left:10px;color:red;"> 需自費 </span></p>
+                        <p>9. {{trans('dictionary.service_description_19')}} <span style=" margin-left:10px;color:red;"> {{trans('dictionary.service_description_19_notice')}}</span></p>
                     </div>
                 </div>
             </div>
@@ -87,8 +87,8 @@
                 <div class="col-12 col-lg-5">
                     <div class="about-content wow fadeInUp" data-wow-delay="500ms" style="margin:15px;">
                         <br>
-                        <p>1. {{trans('dictionary.service_description_21')}} <span style=" margin-left:10px;color:blue;"> (素食請先告知)</span></p>
-                        <p>2. {{trans('dictionary.service_description_22')}} <span style=" margin-left:10px;color:blue;"> (限無油煙烹飪)</span></p>
+                        <p>1. {{trans('dictionary.service_description_21')}} <span style=" margin-left:10px;color:blue;"> {{trans('dictionary.service_description_21_notice')}}</span></p>
+                        <p>2. {{trans('dictionary.service_description_22')}} <span style=" margin-left:10px;color:blue;"> {{trans('dictionary.service_description_22_notice')}}</span></p>
                         <p>3. {{trans('dictionary.service_description_23')}}</p>
                         <p>4. {{trans('dictionary.service_description_24')}}</p>
                         <p>5. {{trans('dictionary.service_description_25')}}</p>
