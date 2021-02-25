@@ -21,6 +21,7 @@
 <script src="/lib/bootstrap/js/bootstrap-select.min.js"></script>
 <script src="/lib/jquery/jquery.lazyload.min.js"></script>
 <script src="/lib/jquery/jquery.growl.min.js"></script>
+<script src="/lib/jquery/jquery-ui.min.js"></script>
 {{--<script src="/lib/moment.min.js"></script>--}}
 {{--<script src="/lib/moment-timezone.min.js"></script>--}}
 <script src="/lib/wow.min.js"></script>

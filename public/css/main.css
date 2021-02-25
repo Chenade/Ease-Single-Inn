@@ -18,10 +18,16 @@
     color: black;
     font-size: 1.2em;
 }
+.mobile-show{
+    display: none;
+}
 
 @media screen and (max-width: 768px){
     .mobile-hide {
         display: none;
+    }
+    .mobile-show{
+        display: block;
     }
     .nav-item{
         font-size: 1.5em;
@@ -83,6 +89,14 @@
 .tag{
     color: #1cc3b2;
     font-weight: bold;
+}
+
+.modal-title{
+    margin: 0!important;
+}
+
+.bootbox .modal-header{
+    display: block;
 }
 
 .roberto-btn {

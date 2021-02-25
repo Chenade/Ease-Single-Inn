@@ -12,6 +12,8 @@ return array(
     'close' => '關閉',
     'cancel' => '取消',
     'confirm' => '確認',
+    'save' => '儲存',
+    'delete' => '刪除',
 	'edit' => '修改',
     'login' => '登入',
     'logout' => '登出',
@@ -67,6 +69,10 @@ return array(
     'space' => '空間',
     'room_service' => '服務',
     'search' => '搜尋',
+    'check_in' => '入住日期',
+    'check_out' => '退房日期',
+    'room_type' => '房型',
+    'count' => '數量',
 
     'about_title_1' => '旅途中最美好的休息點',
     'about_title_2' => '性別分區，安全有保',
@@ -104,5 +110,5 @@ return array(
     'by_car' => '開車前往',
     'by_train' => '搭乘火車',
     'by_bus' => '搭乘公車',
-	
+
 );

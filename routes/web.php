@@ -82,3 +82,29 @@ Route::get('/member/join', function () {
 Route::get('/member/dashboard', function () {
     return view('pages.member.dashboard');
 });
+
+
+Route::get('/manage', function () {
+    return view('pages.manage.login');
+});
+
+Route::get('/manage/logout', function () {
+    session() -> forget('account');
+    return redirect('/manage');
+});
+
+Route::get('/manage/member', function () {
+    return view('pages.manage.member');
+});
+
+Route::get('/manage/booking', function () {
+    return view('pages.manage.booking');
+});
+
+Route::get('/manage/nearby', function () {
+    return view('pages.manage.nearby');
+});
+
+Route::get('/manage/news', function () {
+    return view('pages.manage.news');
+});
