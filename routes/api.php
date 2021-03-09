@@ -42,16 +42,11 @@ Route::post('/ease/member/login',function (){
     if(!$row || $row -> password != $input['password'])
         return $response = response() -> json(['success' => false,'error' => 'MSG_INVALID_LOGIN'], 200);
 
-    session(['account' => $row -> account, 'user' => $row -> name]);
-
-    return $response = response() -> json(['success' => true], 200);
+    return $response = response() -> json(['success' => true, 'user' => $row -> account], 200);
 });
 
-Route::get('/ease/member',function (){
-    session(['account' => 'admin', 'user' => '$row -> name']);
-//    $data = session()->all();
-    $row = DB::table('user') -> where('account',session('account')) -> first();
-
+Route::get('/ease/member/{user}',function ($user){
+    $row = DB::table('user') -> where('account',$user) -> first();
     return $response = response() -> json(['success' => true,'message' => '','data' => $row], 200);
 });
 

@@ -1,4 +1,4 @@
-{{--@include('includes.language')--}}
+@include('includes.language')
 @extends('layouts.default', ['page_header' =>'Single Room','page_parent' =>'Room','page_parent_path' =>'/room','page_path' =>'single room'])
 @section('content')
 

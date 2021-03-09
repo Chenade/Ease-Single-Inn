@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/language/{lang}', function ($lang) {
     App::setlocale($lang);
+    session(['setLocale' => $lang]);
     return redirect() -> back();
 });
 
@@ -30,29 +31,14 @@ Route::get('/service', function () {
     return view('pages.service');
 });
 
-Route::get('/room', function () {
-    return view('pages.room');
+Route::group(['prefix' => 'room'], function (){
+    Route::get('/', function () { return view('pages.room');});
+    Route::get('/1', function () {return view('pages.room1');});
+    Route::get('/2', function () {return view('pages.room2');});
+    Route::get('/3', function () {return view('pages.room3');});
+    Route::get('/4', function () {return view('pages.room4');});
+    Route::get('/5', function () {return view('pages.room5');});
 });
-
-    Route::get('/room/1', function () {
-        return view('pages.room1');
-    });
-
-    Route::get('/room/2', function () {
-        return view('pages.room2');
-    });
-
-    Route::get('/room/3', function () {
-        return view('pages.room3');
-    });
-
-    Route::get('/room/4', function () {
-        return view('pages.room4');
-    });
-
-    Route::get('/room/5', function () {
-        return view('pages.room5');
-    });
 
 Route::get('/news', function () {
     return view('pages.news');
@@ -66,45 +52,18 @@ Route::get('/nearby', function () {
     return view('pages.nearby');
 });
 
-Route::get('/member/login', function () {
-    return view('pages.member.login');
+Route::group(['prefix' => 'member'], function (){
+    Route::get('/login', function () {return view('pages.member.login');});
+    Route::get('/logout', function () {return redirect('/member/login');});
+    Route::get('/join', function () {return view('pages.member.join');});
+    Route::get('/dashboard/{user}', function () {return view('pages.member.dashboard');});
 });
 
-Route::get('/member/logout', function () {
-    session() -> forget('account');
-    return view('pages.member.login');
-});
-
-Route::get('/member/join', function () {
-    return view('pages.member.join');
-});
-
-Route::get('/member/dashboard', function () {
-    return view('pages.member.dashboard');
-});
-
-
-Route::get('/manage', function () {
-    return view('pages.manage.login');
-});
-
-Route::get('/manage/logout', function () {
-    session() -> forget('account');
-    return redirect('/manage');
-});
-
-Route::get('/manage/member', function () {
-    return view('pages.manage.member');
-});
-
-Route::get('/manage/booking', function () {
-    return view('pages.manage.booking');
-});
-
-Route::get('/manage/nearby', function () {
-    return view('pages.manage.nearby');
-});
-
-Route::get('/manage/news', function () {
-    return view('pages.manage.news');
+Route::group(['prefix' => 'manage'], function (){
+    Route::get('/', function () {return view('pages.manage.login');});
+    Route::get('/logout', function () {return redirect('/manage');});
+    Route::get('/booking', function () {return view('pages.manage.booking');});
+    Route::get('/member', function () {return view('pages.manage.member');});
+    Route::get('/nearby', function () {return view('pages.manage.nearby');});
+    Route::get('/news', function () {return view('pages.manage.news');});
 });

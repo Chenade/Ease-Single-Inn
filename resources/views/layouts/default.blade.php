@@ -1,3 +1,4 @@
+@include('includes.language')
 <!doctype html>
 <html>
 <head>
@@ -39,7 +40,6 @@
 @include('includes.footer')
 <script>
     new WOW().init();
-
 
     $('.language').on('click', function () {
         var val = $(this).attr('id');

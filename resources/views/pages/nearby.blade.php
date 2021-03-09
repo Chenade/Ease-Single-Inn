@@ -1,4 +1,4 @@
-{{--@include('includes.language')--}}
+@include('includes.language')
 @extends('layouts.default', ['page_header' =>'Nearby','page_parent' =>'Home','page_parent_path' =>'/','page_path' =>'Nearby'])
 @section('content')
 

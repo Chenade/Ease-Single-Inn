@@ -1,3 +1,4 @@
+@include('includes.language')
 <header class="fixed-top">
     <div class="d-flex align-items-center top-header-area" style="height: 50px;">
         <div class="container d-flex">
@@ -9,8 +10,11 @@
                 <a href="https://www.facebook.com/easesingleinn/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.tripadvisor.com.tw/Hotel_Review-g13792757-d9867568-Reviews-Ease_Single_Inn-Central_District_Taichung.html" target="_blank"><i class="fab fa-tripadvisor"></i></a>
                 <a href="https://www.instagram.com/easesingleinn/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <button class="btn btn-outline-info language" style="margin: 0;" id="en">English</button>
-                <button class="btn btn-outline-info language" style="margin: 0;" id="zh">中文</button>
+                @if(session('setLocale') == 'en')
+                    <button class="btn btn-outline-info language" style="margin: 0;" id="zh">中文</button>
+                @else
+                    <button class="btn btn-outline-info language" style="margin: 0;" id="en">English</button>
+                @endif
             </div>
         </div>
     </div>
@@ -37,7 +41,7 @@
                     <li class="nav-item"><a class="nav-link" href="/nearby">{{trans('dictionary.Nearby')}}</a></li>
                     <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="videodrop" data-toggle="dropdown">{{trans('dictionary.Member')}}</a>
                         <ul class="dropdown-menu">
-                            @if(session() -> has('account'))
+                            @if(session('account') == 'admin@gmail.com'))
                                 <li><a class="dropdown-item" href="/member/dashboard">{{trans('dictionary.member_center')}}</a></li>
                                 <li><a class="dropdown-item" href="/member/logout">{{trans('dictionary.logout')}}</a></li>
                             @else

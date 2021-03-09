@@ -1,4 +1,4 @@
-{{--@include('includes.language')--}}
+@include('includes.language')
 @extends('layouts.manage', ['page_header' =>'News'])
 @section('content')
 

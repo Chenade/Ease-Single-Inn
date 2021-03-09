@@ -1,4 +1,4 @@
-{{--@include('includes.language')--}}
+@include('includes.language')
 @extends('layouts.default', ['page_header' =>'Login','page_parent' =>'Home','page_parent_path' =>'/','page_path' =>'Login'])
 @section('content')
 
@@ -46,7 +46,7 @@
                 dataType: 'json',
                 data: {'account': $('#user').val(), 'password': $('#password').val()},
                 success: function (a) {
-                    if (a.success)  window.location.href = '/member/dashboard';
+                    if (a.success)  window.location.href = '/member/dashboard/' + a.user
                     else $.growl.error({message: a.error});
                 },
                 error: function (a) {
