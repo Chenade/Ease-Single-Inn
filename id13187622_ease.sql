@@ -79,7 +79,7 @@ INSERT INTO `nearby-category` (`id`, `type`, `name`) VALUES
 
 CREATE TABLE `news` (
   `id` int(11) NOT NULL,
-  `start` date NOT NULL DEFAULT current_timestamp(),
+  `start` date NOT NULL,
   `end` date NOT NULL,
   `duration` text COLLATE utf8_unicode_ci NOT NULL,
   `title` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
